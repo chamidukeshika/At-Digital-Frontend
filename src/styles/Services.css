@@ -11,7 +11,6 @@
   padding: 0;
 }
 
-/* Service Icon Container Styles */
 .service-icon {
   margin: 0 auto 30px;
   position: relative;
@@ -35,28 +34,27 @@
   transition: all 0.3s ease;
 }
 
-/* Larger screens - keep them big but fluid */
+
 @media (min-width: 1200px) {
   .service-icon img {
     max-width: 400px;
   }
 }
 
-/* Tablets */
+
 @media (min-width: 768px) and (max-width: 1199px) {
   .service-icon img {
     max-width: 300px;
   }
 }
 
-/* Mobile devices */
 @media (max-width: 767px) {
   .service-icon img {
     max-width: 220px;
   }
 }
 
-/* Extra small screens */
+
 @media (max-width: 375px) {
   .service-icon img {
     max-width: 180px;
@@ -67,7 +65,7 @@
   transform: scale(1.05);
 }
 
-/* Service Card Layout */
+
 .service-card {
   background: transparent;
   border: none;
@@ -84,7 +82,7 @@
   min-height: 300px;
 }
 
-/* Text Content Styles */
+
 .service-title {
   color: #4F46E5;
   font-size: 28px;
@@ -100,7 +98,7 @@
   margin-bottom: 35px;
 }
 
-/* Learn More Button */
+
 .learn-more-btn {
   background: linear-gradient(135deg, #FFA726 0%, #FF9800 100%);
   color: white;
